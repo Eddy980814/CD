@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>春苳紅茶朴子店</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:"Microsoft JhengHei",sans-serif;background:linear-gradient(to bottom,#f8f5f2,#fff);color:#333;line-height:1.6;}
+  header{background:#4e2e1d;color:#fff;padding:25px 0;text-align:center;}
+  header h1{font-size:2.5rem;letter-spacing:3px;}
+  header p{font-size:1.2rem;margin-top:8px;opacity:0.9;}
+  .banner{background:url('https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') no-repeat center/cover;height:320px;display:flex;align-items:center;justify-content:center;color:#fff;text-shadow:2px 2px 6px rgba(0,0,0,0.6);font-size:1.8rem;font-weight:bold;text-align:center;padding:0 20px;}
+  .content{max-width:1000px;margin:40px auto;padding:0 20px;text-align:center;}
+  .content h2{font-size:2rem;margin-bottom:20px;color:#4e2e1d;}
+  .content p{font-size:1.2rem;color:#555;margin-bottom:30px;}
+  .btn{display:inline-block;padding:12px 28px;font-size:1rem;color:#fff;background:#b35c2e;border-radius:25px;text-decoration:none;transition:0.3s;margin-bottom:40px;}
+  .btn:hover{background:#8c4724;}
+  .schedule-container{display:flex;flex-wrap:wrap;gap:15px;justify-content:center;margin-top:20px;}
+  .schedule-card{border-radius:12px;padding:15px 20px;min-width:220px;max-width:280px;box-shadow:0 2px 6px rgba(0,0,0,0.15);background-color:#fff;transition:transform 0.2s,box-shadow 0.2s;}
+  .schedule-card:hover{transform:translateY(-5px);box-shadow:0 5px 12px rgba(0,0,0,0.25);}
+  .schedule-card h3{margin-bottom:8px;font-size:1.1rem;color:#4e2e1d;}
+  .schedule-card ul{list-style:none;padding-left:0;font-size:0.95rem;line-height:1.4;color:#555;}
+  .schedule-card ul li{margin-bottom:4px;}
+  .schedule-card.full-time{border:2px solid #b35c2e;background-color:#fff2e6;}
+  .schedule-card.part-time{border:2px solid:#4e8cbf;background-color:#e6f2ff;}
+  @media screen and (max-width:600px){.schedule-card{min-width:150px;max-width:180px;padding:10px 12px;}}
+  footer{background:#4e2e1d;color:#fff;text-align:center;padding:20px 0;margin-top:50px;font-size:0.9rem;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>春苳紅茶朴子店</h1>
+  <p>越努力越幸福</p>
+</header>
+
+<div class="banner">
+  每日一杯春苳，讓春苳陪你度過每個春夏秋冬
+</div>
+
+<section class="content">
+  <h2>歡迎光臨！</h2>
+  <p>我們堅持使用優質茶葉，沖泡出最香醇的紅茶。每一杯，都是我們對生活的用心。</p>
+  <a href="#" class="btn">立即點單</a>
+</section>
+
+<section class="content">
+  <h2>員工班表（9月）</h2>
+  <div class="schedule-container">
+
+<!-- 正職 -->
+<div class="schedule-card full-time">
+  <h3>依依（正職）</h3>
+  <ul>
+    <li>1號：9:00-17:00</li><li>2號：9:00-17:00</li><li>3號：休</li>
+    <li>4號：9:00-17:00</li><li>5號：9:00-17:00</li><li>6號：10:00-18:00</li>
+    <li>7號：休</li><li>8號：9:00-17:00</li><li>9號：9:00-17:00</li>
+    <li>10號：休</li><li>11號：9:00-17:00</li><li>12號：9:00-17:00</li>
+    <li>13號：10:00-18:00</li><li>14號：休</li><li>15號：9:00-17:00</li>
+    <li>16號：9:00-17:00</li><li>17號：10:00-18:00</li><li>18號：休</li>
+    <li>19號：9:00-17:00</li><li>20號：9:00-17:00</li><li>21號：10:00-18:00</li>
+    <li>22號：休</li><li>23號：9:00-17:00</li><li>24號：9:00-17:00</li>
+    <li>25號：10:00-18:00</li><li>26號：休</li><li>27號：9:00-17:00</li>
+    <li>28號：9:00-17:00</li><li>29號：10:00-18:00</li><li>30號：休</li>
+  </ul>
+</div>
+
+<div class="schedule-card full-time">
+  <h3>世文（正職）</h3>
+  <ul>
+    <li>1號：休</li><li>2號：12:00-20:00</li><li>3號：12:00-20:00</li>
+    <li>4號：12:00-20:00</li><li>5號：休</li><li>6號：10:00-18:00</li>
+    <li>7號：10:00-18:00</li><li>8號：12:00-20:00</li><li>9號：休</li>
+    <li>10號：10:00-18:00</li><li>11號：12:00-20:00</li><li>12號：休</li>
+    <li>13號：10:00-18:00</li><li>14號：12:00-20:00</li><li>15號：休</li>
+    <li>16號：10:00-18:00</li><li>17號：12:00-20:00</li><li>18號：休</li>
+    <li>19號：10:00-18:00</li><li>20號：12:00-20:00</li><li>21號：休</li>
+    <li>22號：10:00-18:00</li><li>23號：12:00-20:00</li><li>24號：休</li>
+    <li>25號：10:00-18:00</li><li>26號：12:00-20:00</li><li>27號：休</li>
+    <li>28號：10:00-18:00</li><li>29號：12:00-20:00</li><li>30號：休</li>
+  </ul>
+</div>
+
+<div class="schedule-card full-time">
+  <h3>小瓜（正職）</h3>
+  <ul>
+    <li>1號：9:00-17:00</li><li>2號：休</li><li>3號：9:00-17:00</li>
+    <li>4號：9:00-17:00</li><li>5號：12:00-20:00</li><li>6號：休</li>
+    <li>7號：10:00-18:00</li><li>8號：9:00-17:00</li><li>9號：休</li>
+    <li>10號：12:00-20:00</li><li>11號：9:00-17:00</li><li>12號：休</li>
+    <li>13號：10:00-18:00</li><li>14號：9:00-17:00</li><li>15號：休</li>
+    <li>16號：12:00-20:00</li><li>17號：9:00-17:00</li><li>18號：休</li>
+    <li>19號：10:00-18:00</li><li>20號：9:00-17:00</li><li>21號：休</li>
+    <li>22號：12:00-20:00</li><li>23號：9:00-17:00</li><li>24號：休</li>
+    <li>25號：10:00-18:00</li><li>26號：9:00-17:00</li><li>27號：休</li>
+    <li>28號：12:00-20:00</li><li>29號：9:00-17:00</li><li>30號：休</li>
+  </ul>
+</div>
+
+<div class="schedule-card full-time">
+  <h3>姐姐（正職）</h3>
+  <ul>
+    <li>1號：10:00-18:00</li><li>2號：10:00-18:00</li><li>3號：休</li>
+    <li>4號：10:00-18:00</li><li>5號：10:00-18:00</li><li>6號：休</li>
+    <li>7號：12:00-20:00</li><li>8號：10:00-18:00</li><li>9號：10:00-18:00</li>
+    <li>10號：休</li><li>11號：12:00-20:00</li><li>12號：10:00-18:00</li>
+    <li>13號：休</li><li>14號：12:00-20:00</li><li>15號：10:00-18:00</li>
+    <li>16號：休</li><li>17號：12:00-20:00</li><li>18號：10:00-18:00</li>
+    <li>19號：休</li><li>20號：12:00-20:00</li><li>21號：10:00-18:00</li>
+    <li>22號：休</li><li>23號：12:00-20:00</li><li>24號：10:00-18:00</li>
+    <li>25號：休</li><li>26號：12:00-20:00</li><li>27號：10:00-18:00</li>
+    <li>28號：休</li><li>29號：12:00-20:00</li><li>30號：10:00-18:00</li>
+  </ul>
+</div>
+
+<!-- 兼職員工 -->
+<div class="schedule-card part-time">
+  <h3>博勛（兼職）</h3>
+  <ul>
+    <li>1號：休</li><li>2號：10:00-18:00</li><li>3號：休</li>
+    <li>4號：12:00-20:00</li><li>5號：休</li><li>6號：10:00-18:00</li>
+    <li>7號：休</li><li>8號：10:00-18:00</li><li>9號：休</li>
+    <li>10號：12:00-20:00</li><li>11號：休</li><li>12號：10:00-18:00</li>
+    <li>13號：休</li><li>14號：12:00-20:00</li><li>15號：休</li>
+    <li>16號：10:00-18:00</li><li>17號：休</li><li>18號：12:00-20:00</li>
+    <li>19號：休</li><li>20號：10:00-18:00</li><li>21號：休</li>
+    <li>22號：12:00-20:00</li><li>23號：休</li><li>24號：10:00-18:00</li>
+    <li>25號：休</li><li>26號：12:00-20:00</li><li>27號：休</li>
+    <li>28號：10:00-18:00</li><li>29號：休</li><li>30號：12:00-20:00</li>
+  </ul>
+</div>
+
+<div class="schedule-card part-time">
+  <h3>怡安（兼職）</h3>
+  <ul>
+    <li>1號：10:00-18:00</li><li>2號：休</li><li>3號：10:00-18:00</li>
+    <li>4號：休</li><li>5號：10:00-18:00</li>
+    <li>6號：休</li><li>7號：10:00-18:00</li>
+    <li>8號：休</li><li>9號：10:00-18:00</li><li>10號：休</li>
+    <li>11號：10:00-18:00</li><li>12號：休</li><li>13號：10:00-18:00</li>
+    <li>14號：休</li><li>15號：10:00-18:00</li>
+    <li>16號：休</li><li>17號：10:00-18:00</li><li>18號：休</li>
+    <li>19號：10:00-18:00</li><li>20號：休</li><li>21號：10:00-18:00</li>
+    <li>22號：休</li><li>23號：10:00-18:00</li><li>24號：休</li>
+    <li>25號：10:00-18:00</li><li>26號：休</li><li>27號：10:00-18:00</li>
+    <li>28號：休</li><li>29號：10:00-18:00</li><li>30號：休</li>
+  </ul>
+</div>
+
+<div class="schedule-card part-time">
+  <h3>億吟（兼職）</h3>
+  <ul>
+    <li>1號：10:00-18:00</li><li>2號：10:00-18:00</li><li>3號：休</li>
+    <li>4號：10:00-18:00</li><li>5號：休</li><li>6號：10:00-18:00</li>
+    <li>7號：休</li><li>8號：10:00-18:00</li><li>9號：10:00-18:00</li>
+    <li>10號：休</li><li>11號：10:00-18:00</li><li>12號：10:00-18:00</li>
+    <li>13號：休</li><li>14號：10:00-18:00</li><li>15號：10:00-18:00</li>
+    <li>16號：休</li><li>17號：10:00-18:00</li><li>18號：10:00-18:00</li>
+    <li>19號：休</li><li>20號：10:00-18:00</li><li>21號：10:00-18:00</li>
+    <li>22號：休</li><li>23號：10:00-18:00</li><li>24號：10:00-18:00</li>
+    <li>25號：休</li><li>26號：10:00-18:00</li><li>27號：10:00-18:00</li>
+    <li>28號：休</li><li>29號：10:00-18:00</li><li>30號：10:00-18:00</li>
+  </ul>
+</div>
+
+<div class="schedule-card part-time">
+  <h3>涵瑜（兼職）</h3>
+  <ul>
+    <li>1號：休</li><li>2號：10:00-18:00</li><li>3號：休</li>
+    <li>4號：10:00-18:00</li><li>5號：休</li><li>6號：10:00-18:00</li>
+    <li>7號：休</li><li>8號：10:00-18:00</li><li>9號：休</li>
+    <li>10號：10:00-18:00</li><li>11號：休</li><li>12號：10:00-18:00</li>
+    <li>13號：休</li><li>14號：10:00-18:00</li><li>15號：休</li>
+    <li>16號：10:00-18:00</li><li>17號：休</li><li>18號：10:00-18:00</li>
+    <li>19號：休</li><li>20號：10:00-18:00</li><li>21號：休</li>
+    <li>22號：10:00-18:00</li><li>23號：休</li><li>24號：10:00-18:00</li>
+    <li>25號：休</li><li>26號：10:00-18:00</li><li>27號：休</li>
+    <li>28號：10:00-18:00</li><li>29號：休</li><li>30號：10:00-18:00</li>
+  </ul>
+</div>
+
+<div class="schedule-card part-time">
+  <h3>暄叡（兼職）</h3>
+  <ul>
+    <li>1號：10:00-18:00</li><li>2號：休</li><li>3號：10:00-18:00</li>
+    <li>4號：休</li><li>5號：10:00-18:00</li><li>6號：休</li>
+    <li>7號：10:00-18:00</li><li>8號：休</li><li>9號：10:00-18:00</li>
+    <li>10號：休</li><li>11號：10:00-18:00</li><li>12號：休</li>
+    <li>13號：10:00-18:00</li><li>14號：休</li><li>15號：10:00-18:00</li>
+    <li>16號：休</li><li>17號：10:00-18:00</li><li>18號：休</li>
+    <li>19號：10:00-18:00</li><li>20號：休</li><li>21號：10:00-18:00</li>
+    <li>22號：休</li><li>23號：10:00-18:00</li><li>24號：休</li>
+    <li>25號：10:00-18:00</li><li>26號：休</li><li>27號：10:00-18:00</li>
+    <li>28號：休</li><li>29號：10:00-18:00</li><li>30號：休</li>
+  </ul>
+</div>
+
+<div class="schedule-card part-time">
+  <h3>聖傑（兼職）</h3>
+  <ul>
+    <li>1號：休</li><li>2號：10:00-18:00</li><li>3號：10:00-18:00</li>
+    <li>4號：休</li><li>5號：10:00-18:00</li><li>6號：10:00-18:00</li>
+    <li>7號：休</li><li>8號：10:00-18:00</li><li>9號：10:00-18:00</li>
+    <li>10號：休</li><li>11號：10:00-18:00</li><li>12號：10:00-18:00</li>
+    <li>13號：休</li><li>14號：10:00-18:00</li><li>15號：10:00-18:00</li>
+    <li>16號：休</li><li>17號：10:00-18:00</li><li>18號：10:00-18:00</li>
+    <li>19號：休</li><li>20號：10:00-18:00</li><li>21號：10:00-18:00</li>
+    <li>22號：休</li><li>23號：10:00-18:00</li><li>24號：10:00-18:00</li>
+    <li>25號：休</li><li>26號：10:00-18:00</li><li>27號：10:00-18:00</li>
+    <li>28號：休</li><li>29號：10:00-18:00</li><li>30號：10:00-18:00</li>
+  </ul>
+</div>
+
+<div class="schedule-card part-time">
+  <h3>映羽（兼職）</h3>
+  <ul>
+    <li>1號：10:00-18:00</li><li>2號：休</li><li>3號：10:00-18:00</li>
+    <li>4號：休</li><li>5號：10:00-18:00</li><li>6號：休</li>
+    <li>7號：10:00-18:00</li><li>8號：休</li><li>9號：10:00-18:00</li>
+    <li>10號：休</li><li>11號：10:00-18:00</li><li>12號：休</li>
+    <li>13號：10:00-18:00</li><li>14號：休</li><li>15號：10:00-18:00</li>
+    <li>16號：休</li><li>17號：10:00-18:00</li><li>18號：休</li>
+    <li>19號：10:00-18:00</li><li>20號：休</li><li>21號：10:00-18:00</li>
+    <li>22號：休</li><li>23號：10:00-18:00</li><li>24號：休</li>
+    <li>25號：10:00-18:00</li><li>26號：休</li><li>27號：10:00-18:00</li>
+    <li>28號：休</li><li>29號：10:00-18:00</li><li>30號：休</li>
+  </ul>
+</div>
+
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 春苳紅茶朴子店 | 用心沖泡，幸福分享
+</footer>
+
+</body>
+</html>
